@@ -1,4 +1,4 @@
-import fs, { link } from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
 import { convert } from "@kreuzberg/html-to-markdown-wasm";
 import slugify from "@sindresorhus/slugify";
@@ -8,6 +8,10 @@ const outlines = [
 	{
 		name: "Relate Components",
 		url: "https://bluestepplatformsupport.bluestep.net/shared/custompage/contentoutline.jsp?_event=view&_id=445506___8201",
+	},
+	{
+		name: "RelateScript",
+		url: "https://bluestepplatformsupport.bluestep.net/shared/custompage/contentoutline.jsp?_event=view&_id=445506___3122",
 	},
 ] as const;
 

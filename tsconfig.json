@@ -12,5 +12,5 @@
 			"#app/*": ["./*"]
 		}
 	},
-	"include": ["src/**/*.ts"]
+	"include": ["scripts/**/*.ts"]
 }

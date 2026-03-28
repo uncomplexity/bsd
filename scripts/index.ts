@@ -108,7 +108,7 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		const page_filepath = path.join(page_dirpath, page_filename);
 
 		if (fs.existsSync(page_filepath)) {
-			continue;
+			// continue;
 		}
 
 		if (parent_slugs.length) {

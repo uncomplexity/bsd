@@ -100,6 +100,17 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 	
 		const parent_slugs = subpage.parents.map((path) => slugify(path));
 		const page_name = slugify(subpage.name);
+		const page_filename = `${page_name}.md`;
+		const page_dirpath = path.join(outline_dirpath, ...parent_slugs);
+		if (!fs.existsSync(page_dirpath)) {
+			fs.mkdirSync(page_dirpath, { recursive: true })
+		}
+		const page_filepath = path.join(page_dirpath, page_filename);
+
+		if (fs.existsSync(page_filepath)) {
+			continue;
+		}
+
 		if (parent_slugs.length) {
 			console.log(`${outline_name} > ${parent_slugs.join(' > ')} > ${page_name}..`);
 		} else {
@@ -139,14 +150,8 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 			);
 		}
 
-		const page_dirpath = path.join(outline_dirpath, ...parent_slugs);
-		if (!fs.existsSync(page_dirpath)) {
-			fs.mkdirSync(page_dirpath, { recursive: true })
-		}
 		const page_html = await page.content();
 		const page_markdown = convert(page_html, { extractMetadata: false });
-		const page_filename = `${page_name}.md`;
-		const page_filepath = path.join(page_dirpath, page_filename);
 		fs.writeFileSync(page_filepath, page_markdown);
 	
 		await page.close();

@@ -1,0 +1,20 @@
+
+
+- Boolean Fields
+
+---
+Boolean fields hold a true/false or yes/no value. They can represent anything where there are exactly two choices. A boolean value may also be empty or null. Aside from the standard features shared by most field types, boolean fields have a number of format options, they can do grouping, and they can be used for conditional locking and hiding. These three feature categories are discussed below.FormatA boolean field may have two different formats with some minor additional settings.
+
+| **Format/Setting** | **Description** |
+| --- | --- |
+| Checkbox | The field is presented as a single checkbox. The checkbox has a configurable label. A checkbox boolean is true if checked, false if not checked. It cannot be set to null by the user. Consequently it also cannot be made required because either checked or unchecked, it still has a value. Put another way, checkbox booleans that are marked required don't have to be checked. A checkbox boolean, however, can still be null if it is never available to be filled out by the user due to locking or permissions, if it is set explicitly to null via a formula, or if the field is created after form entries are created. |
+| Radio Buttons | The field is presented as a set of two radio buttons. The label for each radio button may be configured and the order of the true vs. false options may be switched. Unlike the checkbox format, radio boolean fields can default to null and be required, thus forcing the user to activaly make a choice and select an option. |
+GroupingBoolean fields support grouping where one set of fields is visible when the field is true and another set is visible when the field is false.
+
+| **Setting** | **Description** |
+| --- | --- |
+| Grouping OFF | Grouping features of this field are disabled. |
+| Grouping ON | When grouping is enabled, this field become three separate items in the form's field list. The fields of the form must then be reordered so some fields are between the three parts of this field. Any fields between the first two parts will only be shown on the generic form layout when the boolean is true. Any fields between the final two parts will only be shown on the generic layout when the boolean field is false. If the boolean field is null, neither group of fields will be shown. Fields in the true and false groups are shown or hidden immediately as the value of the boolean field is changed by the end user. Grouping only effects the standard, automatic layout of the form, the "generic layout." Grouping does not effect the grouped fields if they are used in custom layouts via merge reports. |
+Conditional LockingConditional locking is a general feature that is available on most field types. It allows almost any field to be conditionally made read-only (locked) or hidden based on the value of another field. However, only certain types of fields may be part of the condition which causes the locking/hiding. Boolean fields are one of the field types that support this. The locking/hiding settings are configured on the field to be locked/hidden, not on the boolean field, but they are documented here because each type of field which may be the condition of the lock is a bit different. Conditional locking and hiding is always done before the page displays. If the user changes the value of the boolean field after the page is displayed no fields will instantly become locked or unlocked, visible or hidden. Conditional locking/hiding effects fields whether they are shown as part of the generic layout or as part of a custom layout.Boolean fields may conditionally lock/hide other fields when the boolean field is true or when it is false. Boolean fields cannot lock/hide fields when the boolean value is null. [/shared/custompage/custompage.jsp?_event=view&_id=445506___8284](/shared/custompage/custompage.jsp?_event=view&_id=445506___8284) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8286](/shared/custompage/custompage.jsp?_event=view&_id=445506___8286)
+
+ 

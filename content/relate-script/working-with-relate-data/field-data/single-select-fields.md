@@ -1,0 +1,58 @@
+
+
+- Single Select Fields
+
+---
+Single select fields are represented using a custom data type. In some Relate Script system messages, the type will be referred to by the generic data type name Object. Some messages will refer to the more specific data type name SingleSelect. A SingleSelect value is never null; however, it may be empty. This condition can be determined via its custom fields. A SingleSelect value has four fields detailed below.
+
+| Field/Method Name | Return Value | Description |
+| --- | --- | --- |
+| selectedIndex | Integer | An Integer value indicating which option is selected. If this value is null, then the SingleSelect has no item selected. This field can be assigned a new value if the SingleSelect value is in an editable state. |
+| selectedName | String | A String value containing the name of the selected option. If this value is null, then the SingleSelect has no item selected. This is a read-only field. When a SingleSelect value is cast to String it gives the same result as this field. |
+| selectedExportValue | String | A String value containing the export value of the selected option. If this value is null, then the SingleSelect has no item selected. This is a read-only field. |
+| options | OptionItem[Integer] | The *options* field is an Array value containing the list of all possible options for this field, both active and obsolete. It is an Array of OptionItem indexed by Integer values. The first OptionItem is at index 0. OptionItem is another custom type or Object type. It is described below. |
+| active | OptionItem[Integer] | The *active* field is an Array value containing the list of active options for this field. The list always contains the items which are stored as active, and is not effected by setting the status of an option item via RelateScript. It is an Array of OptionItem indexed by Integer values and is indexed the same as the *options* array with the obsolete and disabled options removed. |
+| obsolete | OptionItem[Integer] | The *obsolete* field is an Array value containing the list of obsolete options for this field. The list always contains the items which are stored as obsolete, and is not effected by setting the status of an option item via RelateScript. It is an Array of OptionItem indexed by Integer values and is indexed the same as the *options* array with the active and disabled options removed. |
+| disabled | OptionItem[Integer] | The *disabled* field is an Array value containing the list of disabled options for this field. The list always contains the items which are stored as disabled, and is not effected by setting the status of an option item via RelateScript. It is an Array of OptionItem indexed by Integer values and is indexed the same as the *options* array with the active and obsolete options removed. |
+| locked | OptionItem[Integer] | The *locked* field is an Array value containing the list of locked options for this field. The list always contains the items which are stored as locked, and is not effected by setting the status of an option item via RelateScript. It is an Array of OptionItem indexed by Integer values and is indexed the same as the *options* array with the active, obsolete and disabled options removed. |
+| optionsByName | OptionItem[String] | The *optionsByName* field is an Array value containing the list of possible options that may be selected. It is an Array of OptionItem indexed by String values. The options are listed alphanumerically by name. OptionItem is another custom type or Object type. It is described below. |
+| optionsByExport | OptionItem[String] | The *optionsByExport* field is an Array value containing the list of possible options that may be selected. It is an Array of OptionItem indexed by String values. The options are listed alphanumerically by export value. Options without an export value are not included. OptionItem is another custom type or Object type. It is described below. |
+| lookup(String name, String value) | OptionItem | The *lookup* function finds a single option in the list of options using the custom lookup properties of the option items. Custom lookup properties come in two varieties: unique and non-unique. Names beginning with an underbar do not have to be unique. Names that do not begin with an underbar must be unique name/value pair for any one type of Relate element within a single organization. Thus, if the name begins with an underbar there could be more than one option that has the same name/value pair associated with it. In this case, the first matching option will be returned. |
+
+ **The OptionItem Custom Data Type**
+The OptionItem custom data type represents one of the available options in a single select or multiple select field. It has many fields which can be used to discover and modify its settings including making it the selected option, or one of the selected options in the case of a multi-select field.
+
+| Field/Method Name | Return Value | Description |
+| --- | --- | --- |
+| selected | Boolean | A Boolean value indicating whether this item is currently selected. This field can be assigned a new value which will cause the SingleSelect or MultiSelect value to be changed as well. This value can be changed if the underlying form entry is writable in the current formula context. |
+| name | String | A String value containing the name of this option item. This is a read-only field. When a OptionItem value is cast to String, it gives the same result as this field unless there are CSS styles and/or a CSS class. If there are CSS options defined, then the result is the name wrapped in a span tag with the CSS settings applied. |
+| exportValue | String | A String value containing the exportValue of this option item. If an option has an export, this value will display when exporting a query or report. This is a read-only field. |
+| id | String | A String value containing the id of this option item. This is a read-only field. The id is used as the 'value' attribute of the option/input html tag for editable single/multi select fields. Thus the id value is useful in composing JavaScript to manipulate editable option fields. |
+| fqId | String | A String value containing the fully qualified id of this option item. This is a read-only field. The id is used as the 'value' attribute of the option/input html tag for editable single/multi select fields. Thus the id value is useful in composing JavaScript to manipulate editable option fields. |
+| shortId | String | A String value containing the short id of this option item. This is a read-only field. The id is used as the 'value' attribute of the option/input html tag for editable single/multi select fields. Thus the id value is useful in composing JavaScript to manipulate editable option fields. |
+| index | Integer | An Integer value containing the index of this option item. This is a read-only field. This index is 0 based, so it will always be one less than the display order shown when editing the field. |
+| customProps | String[String] | An array value of type String[String] containing the custom look-up properties of this option item. |
+| cssStyle | String | A String value containing the CSS style of the option item. This field can also be temporarily modified. If set to a new value then the style given will be visible for the current field and current form entry during the remainder of the current request. If set to null then the original style is restored. This value can be changed regardless of the writability of the underlying form entry as it does not actually change any data, just temporarily displays it differently. |
+| cssClass | String | A String value containing the CSS class or classes of the option item. This field can also be temporarily modified. If set to a new value then the class given will be visible for the current field and current form entry during the remainder of the current request. If set to null then the original class is restored. This value can be changed regardless of the writability of the underlying form entry as it does not actually change any data, just temporarily displays it differently. |
+| status | String | A String value indicating the status of the option item. This field can also be temporarily modified. If set to a new value then the option will be shown, hidden or disabled for the current field and current form entry during the remainder of the current request. If set to null or empty string then the original status is restored. This value can be changed regardless of the writability of the underlying form entry as it does not actually change any data, just temporarily displays it differently. To set the status use "a" or "active" to make the option active, "o" or "obsolete" to make the option obsolete, "d" or "disabled" to make it disabled, and finally null or empty string to restore the original status. All values are case insensitive. The value of status is empty string for active option items, "Obsolete" for obsolete options and "Disabled" for disabled options. **Note:** An option which is selected and obsolete will behave as though it is active. An option which is selected and disabled will be gray, but may still be selected or unselected like a normal, active option. |
+| active | Boolean | A Boolean value indicating whether the status of the option item is active. This value will reflect the current status even if it has been temporarily altered by setting the status field. It will only be null if used with a null option item. |
+| obsolete | Boolean | A Boolean value indicating whether the status of the option item is obsolete. This value will reflect the current status even if it has been temporarily altered by setting the status field. It will only be null if used with a null option item. |
+| disabled | Boolean | A Boolean value indicating whether the status of the option item is disabled. This value will reflect the current status even if it has been temporarily altered by setting the status field. It will only be null if used with a null option item. |
+| locked | Boolean | A Boolean value indicating whether the status of the option item is locked. This value will reflect the current status even if it has been temporarily altered by setting the status field. It will only be null if used with a null option item. |
+| sortOrder | Integer | An Integer value containing the sort order of the option item, beginning with 1. This is a read-only field. |
+| groups | String[Integer] | An array value of type String[Integer] containing the list of groups that contain the option item. The groups are listed beginning with the top level group a index 0 and proceeding to inner groups. This is a read-only field. |
+
+ **Examples**
+In this example there is a SingleSelect value called state. The example finds the option with an export value of "UT" and selects it.for (index in state.options) {
+if (state.options[index].exportValue == "UT") {
+state.options[index].selected = true;
+break;
+}
+}The script is shorter if we use the two-variable variation of the for-loop.for (index, option in state.options) {
+if (option.exportValue == "UT") {
+option.selected = true;
+break;
+}
+}Of course, the same operation can be accomplished very easily using the *optionsByExport* property.state.optionsByExport["UT"].selected = true; [/shared/custompage/custompage.jsp?_event=view&_id=445506___3149](/shared/custompage/custompage.jsp?_event=view&_id=445506___3149) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3151](/shared/custompage/custompage.jsp?_event=view&_id=445506___3151)
+
+ 

@@ -1,0 +1,14 @@
+
+
+- Comparative Operators
+
+---
+The six comparative operators are used to determine if two things are equal or if one is greater than (or less than) the other. The result of any comparative operation is Boolean. All comparative operators work with all of the standard data types except Array and Boolean. Only == and != work with Boolean input values and none of the operators work with Array values. All of the comparative operators require that the operands both before and after the operator be of the same data type.**Is Equal:** ==
+The "is equal" operator results in true if the values on each side are exactly equal, otherwise the result is false. This is one of the few operations in Relate Script which does not result in null even if one or both operands are null.**Is Not Equal:** !=
+The "is not equal" operator results in false if the values on each side are exactly equal, otherwise the result is true. This is also one of the few operations in Relate Script which does not result in null even if one or both operands are null.**Is Greater Than:** >
+The "is greater than" operator results in true if the value before the operator is greater than the value after the operator. If the value before the operator equals or is less than the value after the operator, then the result is false. When comparing null values, null is considered to be the least possible value, so null is never greater than any value including null.**Is Less Than:** <
+The "is less than" operator results in true if the value before the operator is less than the value after the operator. If the value before the operator equals or is greater than the value after the operator, the result is false. When comparing null values, null is considered to be the least possible value, so null is less than any value other than null.**Is Greater Than or Equal:** >=
+The "is greater than or equal" operator results in true if the value before the operator is greater than or equal to the value after the operator. If the value before the operator is less than the value after the operator, then the result is false. When comparing null values, null is considered to be the least possible value, so null is never greater than or equal to any value other than null.**Is Less Than or Equal:** <=
+The "is less than or equal" operator results in true if the value before the operator is less than or equal to the value after the operator. If the value before the operator is greater than the value after the operator, then the result is false. When comparing null values, null is considered to be the least possible value, so null is less than or equal to any value. [/shared/custompage/custompage.jsp?_event=view&_id=445506___3160](/shared/custompage/custompage.jsp?_event=view&_id=445506___3160) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3156](/shared/custompage/custompage.jsp?_event=view&_id=445506___3156)
+
+ 

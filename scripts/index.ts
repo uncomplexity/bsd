@@ -152,14 +152,13 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 
 		{
 			const selector = `a[href^="/shared/custompage/"]`;
-				await page.locator(selector).evaluateAll((els) => {
-					for (const el of els) {
-						if (el instanceof HTMLAnchorElement) {
-							el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.href}`);
-						}
+			await page.locator(selector).evaluateAll((els) => {
+				for (const el of els) {
+					if (el instanceof HTMLAnchorElement) {
+						el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.href}`);
 					}
-				});
-			}
+				}
+			});
 		}
 
 		const page_html = await page.content();

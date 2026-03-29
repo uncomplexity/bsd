@@ -42,6 +42,14 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 			.forEach((el) => el.remove());
 	});
 
+	await page.evaluate(() => {
+		const inner = document.querySelector('#contentArea');
+		if (inner) {
+			document.body.innerHTML = '';
+			document.body.appendChild(inner);
+		}
+	});
+
 	const subpages = await page.evaluate(() => {
 		const content = document.querySelector("#contentArea");
 		if (!content) {
@@ -164,6 +172,7 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		const page_html = await page.content();
 		const page_markdown = convert(page_html, {
 			extractMetadata: false,
+			preserveTags: ['table'],
 		});
 		fs.writeFileSync(page_filepath, page_markdown);
 	

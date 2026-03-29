@@ -13,6 +13,6 @@ The matches(...) function has only one variation, not counting syntax variations
 | --- | --- |
 | *source-string* | The String which will be checked to against the pattern. |
 | *target-string* | The String containing the regular expression value to attempt to match. The variation of the regular expression language used is provided by Java and is documented under [Sun Microsystem's Pattern class](http://java.sun.com/j2se/1.5.0/docs/api/java/util/regex/Pattern.html). |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11941](/shared/custompage/custompage.jsp?_event=view&_id=445506___11941) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4183](/shared/custompage/custompage.jsp?_event=view&_id=445506___4183)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11941](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11941) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4183](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4183)
 
  

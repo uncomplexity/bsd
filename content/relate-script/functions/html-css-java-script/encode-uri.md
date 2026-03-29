@@ -11,6 +11,6 @@ The encodeURI(...) function has only one variation, not counting syntax variatio
 | **Parameter** | **Description** |
 | --- | --- |
 | *source-string* | The String to encode. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8941](/shared/custompage/custompage.jsp?_event=view&_id=445506___8941) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8084](/shared/custompage/custompage.jsp?_event=view&_id=445506___8084)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8941](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8941) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8084](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8084)
 
  

@@ -11,6 +11,6 @@ The setContentType(...) function has only one variation, not counting syntax var
 | --- | --- |
 | *document-field* | The document field referencing the document which will have the new contentType. If the field is read-only or does not currently reference a document the function will return false or null respectively. |
 | *contentType* | The new contentType of the document. If contentType is null the default contentType based on the document's name will be used. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8061](/shared/custompage/custompage.jsp?_event=view&_id=445506___8061) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7505](/shared/custompage/custompage.jsp?_event=view&_id=445506___7505)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8061](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8061) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7505](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7505)
 
  

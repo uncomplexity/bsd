@@ -24,6 +24,6 @@ Expressions are evaluated in the order listed below:
 | \|\| | Conditional OR | left-to-right |
 | ? : | Conditional Operator | N/A |
 | = or *= or /= or %= or += or -= or \|= or <<= or >>= or >>>= or &= or ^= | Assignment | right-to-left |
- [/shared/custompage/custompage.jsp?_event=view&_id=445506___3126](/shared/custompage/custompage.jsp?_event=view&_id=445506___3126) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3155](/shared/custompage/custompage.jsp?_event=view&_id=445506___3155)
+ [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3126](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3126) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3155](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3155)
 
  

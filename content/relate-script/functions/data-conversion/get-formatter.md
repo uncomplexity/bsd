@@ -149,6 +149,6 @@ The next example begins to explore the true power of formatters. The primary pur
 
 The sections highlighted in yellow are the quoted literals containing brace characters that are a part of the JavaScript, not the format string. On line three the first embedded JavaScript string uses single-quotes and therefore must have double single-quote characters (''#nursingSummary'') when used within a format string.
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8861](/shared/custompage/custompage.jsp?_event=view&_id=445506___8861) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7241](/shared/custompage/custompage.jsp?_event=view&_id=445506___7241)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8861](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8861) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7241](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7241)
 
  

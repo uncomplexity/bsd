@@ -29,6 +29,6 @@ The substring(...) function has two variations, not counting syntax variations. 
 | strVal.substring(2) | Get all of strVal except the first 2 characters. |
 | strVal.substring(0, -2) | Get all of strVal except the last 2 characters. |
 | strVal.substring(2, -2) | Get all of strVal except the first 2 characters and the last 2 characters. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8901](/shared/custompage/custompage.jsp?_event=view&_id=445506___8901) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3207](/shared/custompage/custompage.jsp?_event=view&_id=445506___3207)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8901](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8901) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3207](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3207)
 
  

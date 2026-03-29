@@ -27,6 +27,6 @@ It is also possible to do more complicated joins. For instance, the data from th
 
 
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8341](/shared/custompage/custompage.jsp?_event=view&_id=445506___8341) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4182](/shared/custompage/custompage.jsp?_event=view&_id=445506___4182)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8341](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8341) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4182](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4182)
 
  

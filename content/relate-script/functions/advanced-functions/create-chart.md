@@ -81,6 +81,6 @@ The createChartl(...) function has only two basic variations, with six different
 | *rotation* | This option affects where the text is positioned, as well as the rotation of the text. Possible options are *"left", "right", "bottom",* and *"top". "bottom"* and *"top"* options will leave the text unrotated. *"right"* will rotate the text 90 degrees clockwise. *"left"* will rotate the text 90 degrees counter clockwise. This option is defaulted to *"top".* |
 | *text-color* | The color of the text itself. This can be a RGB value (i.e. "255255255") or a hexadecimal value (i.e. "#000000"). This option is defaulted to "000000000". |
 | *background-color* | The color of the background behind the text. This can be a RGB value (i.e. "255255255") or a hexadecimal value (i.e. "#000000"). This option is defaulted to "000000000". |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11761](/shared/custompage/custompage.jsp?_event=view&_id=445506___11761) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8541](/shared/custompage/custompage.jsp?_event=view&_id=445506___8541)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541)
 
  

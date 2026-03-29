@@ -20,6 +20,6 @@ Certain formula types may initiate an edit sequence as opposed to responding to 
 | *recordId* | A read-only String value containing the id of the field causing this message. Currently only certain system generated errors use this value. |
 | *entryTempId* | A read-only String value containing the temporary id of the an entry which had an error prior to the first save of that entry. Currently only certain system generated errors use this value. |
 | *action* | A read-only String value containing the name of the action that was being performed on the Relate record. Currently only certain system generated errors use this value. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8602](/shared/custompage/custompage.jsp?_event=view&_id=445506___8602) [/shared/custompage/custompage.jsp?_event=view&_id=445506___6661](/shared/custompage/custompage.jsp?_event=view&_id=445506___6661)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6661](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6661)
 
  

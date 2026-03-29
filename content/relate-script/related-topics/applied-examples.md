@@ -244,6 +244,6 @@ Alternative Solution: Don't worry about making anything required, and simply tog
 Then in your endpoint let's say your query is "Community (This Unit Only)" and you've given it the ID `comm`. Include the lines comm.setCurrentUnit(request.getParameter("thisUnitID"));
  selComm = comm.get(0);
 
-You can now be assured that anything you do with `selComm` will be in your desired unit. [/shared/custompage/custompage.jsp?_event=view&_id=445506___11381](/shared/custompage/custompage.jsp?_event=view&_id=445506___11381) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11661](/shared/custompage/custompage.jsp?_event=view&_id=445506___11661)
+You can now be assured that anything you do with `selComm` will be in your desired unit. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11381](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11381) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11661](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11661)
 
  

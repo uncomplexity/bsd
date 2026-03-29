@@ -21,6 +21,6 @@ toTime(** *dateTime***,** *timezone-string* **)** *time-string***.toTime()**
 | *timezone-string* | The time zone string is used to convert the *dateTime* value to a Time. If omitted, the current user's preferred time zone is used. Any time zone identifier supported by Java is allowed. |
 
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3481](/shared/custompage/custompage.jsp?_event=view&_id=445506___3481) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4765](/shared/custompage/custompage.jsp?_event=view&_id=445506___4765)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3481](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3481) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4765](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4765)
 
  

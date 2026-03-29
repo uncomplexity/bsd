@@ -12,6 +12,6 @@ Causes the currently executing thread to sleep for the specified number of milli
  }
  content = req.getContent();
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8361](/shared/custompage/custompage.jsp?_event=view&_id=445506___8361) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7982](/shared/custompage/custompage.jsp?_event=view&_id=445506___7982)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8361](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8361) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7982](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7982)
 
  

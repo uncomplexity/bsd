@@ -28,6 +28,6 @@ The function returns an empty string when it has completed successfully, or a st
 
  result = storeString(outXMLStr, indexName, destFilePath);
 
-If the server is configured to use /store as the location for this function and the base folder is 'clientData' and the organization identity is U111111 then the file 'contact.xml' will be created in the following path on the server:**/store/U111111/clientData/client_name~client_id/general/contact.xml**which contains the content stored in variable 'outXMLStr'. [/shared/custompage/custompage.jsp?_event=view&_id=445506___11901](/shared/custompage/custompage.jsp?_event=view&_id=445506___11901) [/shared/custompage/custompage.jsp?_event=view&_id=445506___9441](/shared/custompage/custompage.jsp?_event=view&_id=445506___9441)
+If the server is configured to use /store as the location for this function and the base folder is 'clientData' and the organization identity is U111111 then the file 'contact.xml' will be created in the following path on the server:**/store/U111111/clientData/client_name~client_id/general/contact.xml**which contains the content stored in variable 'outXMLStr'. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11901](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11901) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9441](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9441)
 
  

@@ -12,6 +12,6 @@ The toTitleCaps(...) function has only one variation, not counting syntax variat
 | **Parameter** | **Description** |
 | --- | --- |
 | *source-string* | The String from which to copy. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3207](/shared/custompage/custompage.jsp?_event=view&_id=445506___3207) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3208](/shared/custompage/custompage.jsp?_event=view&_id=445506___3208)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3207](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3207) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3208](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3208)
 
  

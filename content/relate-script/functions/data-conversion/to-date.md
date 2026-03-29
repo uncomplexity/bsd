@@ -20,6 +20,6 @@ toDate(** *dateTime***,** *timezone-string* **)** *date-string***.toDate()**
 | *dateTime* | The DateTime value to be converted to a Date value. |
 | *timezone-string* | The time zone string is used to convert the *dateTime* value to a Date. If omitted, the current user's preferred time zone is used. Any time zone identifier supported by Java 5 is allowed. |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___7221](/shared/custompage/custompage.jsp?_event=view&_id=445506___7221) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3168](/shared/custompage/custompage.jsp?_event=view&_id=445506___3168)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7221](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7221) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3168](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3168)
 
  

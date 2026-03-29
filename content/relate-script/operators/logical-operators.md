@@ -47,6 +47,6 @@ OR** **Input 1**
 - **false** true false null
 - **null** true null null
 **The NOT Operator:** !
-The NOT operation receives only one Boolean input and returns its opposite. So !true results in false, and !false results in true. If the input is null, then the result is null also. This operation is equivalent to negation for a number value. [/shared/custompage/custompage.jsp?_event=view&_id=445506___3159](/shared/custompage/custompage.jsp?_event=view&_id=445506___3159) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3158](/shared/custompage/custompage.jsp?_event=view&_id=445506___3158)
+The NOT operation receives only one Boolean input and returns its opposite. So !true results in false, and !false results in true. If the input is null, then the result is null also. This operation is equivalent to negation for a number value. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3159](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3159) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3158](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3158)
 
  

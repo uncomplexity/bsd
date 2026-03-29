@@ -25,6 +25,6 @@ if ("once".putContent("")) {
 
  //code in this if block will only run once on the page based on the key "once".
 
-}`[B.pageContent()](/jslib/docs/B/classes/bluestep.b.html#pagecontent "B.pageContent()") [/shared/custompage/custompage.jsp?_event=view&_id=445506___8421](/shared/custompage/custompage.jsp?_event=view&_id=445506___8421) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8702](/shared/custompage/custompage.jsp?_event=view&_id=445506___8702)
+}`[B.pageContent()](/jslib/docs/B/classes/bluestep.b.html#pagecontent "B.pageContent()") [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8421](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8421) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8702](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8702)
 
  

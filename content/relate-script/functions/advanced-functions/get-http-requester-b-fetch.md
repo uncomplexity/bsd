@@ -40,6 +40,6 @@ url.getHTTPRequester()
 | responseMessage | String | A read-only String value containing the human readable response code as defined in the HTTP specification. |
 | responseHeaders | String[String] | A read-only array value (String[String]) containing the response headers. Headers with multiple values are combined with a newline separator. If requesting a local URL (it begins with a "/") the system may choose to retrieve the requested content directly without making a normal HTTP request. This has the advantage of greater efficiency and preservation of the current user's login credentials. However, it also means that no actual HTTP headers will be generated. |
 | basicAuthentication(String username, String password) | | Takes two parameters, username and password that will be passed using HTTP Basic Authentication. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___7981](/shared/custompage/custompage.jsp?_event=view&_id=445506___7981) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11641](/shared/custompage/custompage.jsp?_event=view&_id=445506___11641)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7981](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7981) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11641](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11641)
 
  

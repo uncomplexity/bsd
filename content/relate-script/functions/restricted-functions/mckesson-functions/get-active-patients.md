@@ -24,6 +24,6 @@ The getActivePatients(...) function retrieves a List of active patients from the
 | *birthDate* | This is a read-only String value containing the McKesson birth date of the patient. |
 | *getFieldByID(fieldID)* | This function results in a String value containing the McKesson field value of the fieldID passed to it. |
 | *getDispensesByDate(rxID)* | This function results in a List of Dispense Objects value containing the McKesson field value of the rxID passed to it. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___6541](/shared/custompage/custompage.jsp?_event=view&_id=445506___6541) [/shared/custompage/custompage.jsp?_event=view&_id=445506___6543](/shared/custompage/custompage.jsp?_event=view&_id=445506___6543)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6541](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6541) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6543](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6543)
 
  

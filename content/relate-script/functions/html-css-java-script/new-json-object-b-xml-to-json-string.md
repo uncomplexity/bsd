@@ -45,6 +45,6 @@ newJSONObject(** *XMLString* **)**
 | errors | String | Many of the functions and fields above can have errors, particularly when attempting to convert data. When an error occurs it is added to this property as a newline delimited list of error messages. |
 | resetErrors() | | Clears the errors property to make it easier to determine which operation caused which error in a complex formula sequence. |
 | pretty(Integer indent) | String | Converts the JSON object to a String value with newlines and indenting designed to make reading as clear as possible for humans. The optional *indent* parameter determines how large each indent step is. It must be between 0 and 8 and defaults to 2. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8422](/shared/custompage/custompage.jsp?_event=view&_id=445506___8422) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11602](/shared/custompage/custompage.jsp?_event=view&_id=445506___11602)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8422](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8422) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11602](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11602)
 
  

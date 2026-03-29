@@ -11,6 +11,6 @@ The toPlainText(...) function has only one variation, not counting syntax variat
 | --- | --- |
 | *source-string* | The String from which to copy. |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3209](/shared/custompage/custompage.jsp?_event=view&_id=445506___3209) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4783](/shared/custompage/custompage.jsp?_event=view&_id=445506___4783)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3209](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3209) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4783](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4783)
 
  

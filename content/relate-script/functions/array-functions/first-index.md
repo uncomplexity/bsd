@@ -8,6 +8,6 @@ The firstIndex(...) function has only one variation, not counting syntax variati
 | **Parameter** | **Description** |
 | --- | --- |
 | *array-value* | The array value who's first index is being found. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___4783](/shared/custompage/custompage.jsp?_event=view&_id=445506___4783) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3185](/shared/custompage/custompage.jsp?_event=view&_id=445506___3185)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4783](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4783) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3185](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3185)
 
  

@@ -10,6 +10,6 @@ The lastIndex(...) function has only one variation, not counting syntax variatio
 | **Parameter** | **Description** |
 | --- | --- |
 | *array-value* | The array value who's last index is being found. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3184](/shared/custompage/custompage.jsp?_event=view&_id=445506___3184) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3183](/shared/custompage/custompage.jsp?_event=view&_id=445506___3183)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3184](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3184) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3183](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3183)
 
  

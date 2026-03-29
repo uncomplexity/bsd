@@ -23,6 +23,6 @@ To create the Help Menu in a Manage Site, a few items are required.
  - Destination: Help URLs
 3. For the menu to show, the particular Unit needs at least one active entry (per the queries search criteria)
 4. A system can be built using Relate Script to copy entries up and down the unit structure if needed
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11661](/shared/custompage/custompage.jsp?_event=view&_id=445506___11661) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11861](/shared/custompage/custompage.jsp?_event=view&_id=445506___11861)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11661](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11661) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11861](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11861)
 
  

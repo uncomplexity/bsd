@@ -34,6 +34,6 @@ It is then quite easy to loop through the list and [send each an individual aler
  getNewAlert(userNameList[i], "signature", "Just a friendly alert to say hello!", curDateTime() + toDateDiff("P1D"));
  }
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8561](/shared/custompage/custompage.jsp?_event=view&_id=445506___8561) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3165](/shared/custompage/custompage.jsp?_event=view&_id=445506___3165)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8561](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8561) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3165](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3165)
 
  

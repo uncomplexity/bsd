@@ -13,6 +13,6 @@ SHA1AsBase64(** *input-string***,** *charset* **)** *input-string***.SHA1AsBase6
 | --- | --- |
 | *input-string* | The String value to be encrypted. |
 | *charset* | The charset to use, prior to encryption, when converting the String value into bytes. The default is UTF-8. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3741](/shared/custompage/custompage.jsp?_event=view&_id=445506___3741) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8901](/shared/custompage/custompage.jsp?_event=view&_id=445506___8901)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3741](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3741) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8901](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8901)
 
  

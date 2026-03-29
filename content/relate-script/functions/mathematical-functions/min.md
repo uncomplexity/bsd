@@ -13,6 +13,6 @@ The min(...) function has only one variation, not counting syntax variations. It
 | --- | --- |
 | *list-of-numbers* | A comma separated list of Integer and/or Float values. |
 | *first-number* | The first number which would be in the *list-of-numbers*. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3180](/shared/custompage/custompage.jsp?_event=view&_id=445506___3180) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3182](/shared/custompage/custompage.jsp?_event=view&_id=445506___3182)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3180](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3180) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3182](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3182)
 
  

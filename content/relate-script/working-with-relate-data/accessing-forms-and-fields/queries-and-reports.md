@@ -40,6 +40,6 @@ A record object, returned by the next() function, the get(...) function or the g
  // some actions performed on client done here
  }
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___6721](/shared/custompage/custompage.jsp?_event=view&_id=445506___6721) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7181](/shared/custompage/custompage.jsp?_event=view&_id=445506___7181)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6721](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6721) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7181](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7181)
 
  

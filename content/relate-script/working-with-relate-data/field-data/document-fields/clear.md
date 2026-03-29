@@ -13,6 +13,6 @@ The clear(...) function has two variations, not counting syntax variations. It c
 | --- | --- |
 | *document-field* | The document field to be cleared. |
 | *delete* | A boolean value indicating whether the currently referenced document should be deleted. If *delete* is true then the document will be deleted. If *delete* is false then the document will not be deleted. If *delete* is null or is not given then the clean-up policy of the document field will be followed. |
- [/shared/custompage/custompage.jsp?_event=view&_id=445506___7341](/shared/custompage/custompage.jsp?_event=view&_id=445506___7341) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7401](/shared/custompage/custompage.jsp?_event=view&_id=445506___7401)
+ [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7341](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7341) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7401](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7401)
 
  

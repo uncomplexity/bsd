@@ -20,6 +20,6 @@ The newPatientProfile() method creates a PatientProfile object that is used to p
 | *lactationContraindications()* | Calculates Lactation Contraindications. Returns an array of type [Integer]String |
 | *doseScreening()* | Preforms a dose screening. Returns an array of type [Integer]String |
 | *ingredientDoseScreening()* | Preforms an ingredient dose screening. Returns an array of type [Ineger]String |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11702](/shared/custompage/custompage.jsp?_event=view&_id=445506___11702) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11704](/shared/custompage/custompage.jsp?_event=view&_id=445506___11704)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11702](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11702) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11704](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11704)
 
  

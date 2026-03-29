@@ -55,6 +55,6 @@ set(** *datetime-value***,** *modifiers* **)**
 | "ST0H0M0S0m" | Midnight |
 | "ST11h1A59M59S999m" | Last millisecond of the current day |
 | "ST0H0M0S0m -PT0.001S" | Last millisecond of the previous day |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3170](/shared/custompage/custompage.jsp?_event=view&_id=445506___3170) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4767](/shared/custompage/custompage.jsp?_event=view&_id=445506___4767)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3170](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3170) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4767](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4767)
 
  

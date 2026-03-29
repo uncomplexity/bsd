@@ -13,6 +13,6 @@ Topics that could use further documentation:
 - jQuery
 - Glossary of internet terms and technologies
 - Glossary of Relate terms and technologies
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3153](/shared/custompage/custompage.jsp?_event=view&_id=445506___3153) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11381](/shared/custompage/custompage.jsp?_event=view&_id=445506___11381)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3153](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3153) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11381](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11381)
 
  

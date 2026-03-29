@@ -18,6 +18,6 @@ DefaultThe default value may be specified or be populated automatically with a u
 | --- | --- |
 | Specific Value | The default is a set value. |
 | Unique ID Number | The system will provide an integer value that is guarenteed to be unique. Each number provided will be greater than the previous number. They are not generally sequential and frequently skip one or more numbers. The uniqueness of the number is not just for a single number field, but for all fields configured with a unique id default value. Also, the field will be read-only and cannot be made editable so long as the default value is configured to this option. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8283](/shared/custompage/custompage.jsp?_event=view&_id=445506___8283) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8285](/shared/custompage/custompage.jsp?_event=view&_id=445506___8285)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8283](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8283) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8285](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8285)
 
  

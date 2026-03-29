@@ -21,6 +21,6 @@ The function returns an empty string when it has completed successfully, or a st
 
  result = storeURL(docSrcPath, indexName, destFilePath);
 
-If the server is configured to use /store as the location for this function and the base folder is 'clientData' and the organization identity is U111111, then a copy of the document (in this example named 'background-check.pdf') would be created in the following path on the server:**/store/U111111/clientData/DOE_JOHN~1100000_12131212_999999/background-check.pdf** [/shared/custompage/custompage.jsp?_event=view&_id=445506___9421](/shared/custompage/custompage.jsp?_event=view&_id=445506___9421) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7261](/shared/custompage/custompage.jsp?_event=view&_id=445506___7261)
+If the server is configured to use /store as the location for this function and the base folder is 'clientData' and the organization identity is U111111, then a copy of the document (in this example named 'background-check.pdf') would be created in the following path on the server:**/store/U111111/clientData/DOE_JOHN~1100000_12131212_999999/background-check.pdf** [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9421](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9421) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7261](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7261)
 
  

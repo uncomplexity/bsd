@@ -11,6 +11,6 @@ The setNotes(...) function has only one variation, not counting syntax variation
 | --- | --- |
 | *document-field* | The document field referencing the document which will receive the new notes. If the field is read-only or does not currently reference a document the function will return false or null respectively. |
 | *notes* | The new notes to be stored with the document. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___7504](/shared/custompage/custompage.jsp?_event=view&_id=445506___7504) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7521](/shared/custompage/custompage.jsp?_event=view&_id=445506___7521)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7504](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7504) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7521](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7521)
 
  

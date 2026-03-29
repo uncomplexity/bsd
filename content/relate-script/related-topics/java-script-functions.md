@@ -65,6 +65,6 @@ Most if not all pages in BlueStep have JavaScript on the page.`common.js``common
 | --- | --- |
 | Swal.fire({ type: 'error', title: 'Oops...', text: 'Something went wrong!', footer: '[Why do I have this issue?](/shared/admin/sites/)' }) | Using the object constructor. |
 | Swal.fire({ title: 'Are you sure?', text: "You won't be able to revert this!", type: 'warning', showCancelButton: true, confirmButtonColor: '#3085d6', cancelButtonColor: '#d33', confirmButtonText: 'Yes, delete it!' }).then((result) => { if (result.value) { Swal.fire( 'Deleted!', 'Your file has been deleted.', 'success' ) } }) | Using `.then()` to chain Swal modals together. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11781](/shared/custompage/custompage.jsp?_event=view&_id=445506___11781)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11781](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11781)
 
  

@@ -22,6 +22,6 @@ outStr += date + " - " + event + "\n";
 10/19/1781 - U.S. Wins Revolutionary War
 06/21/1788 - U.S. Constitution is Ratified
 12/15/1791 - Bill of Rights Ratified
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3135](/shared/custompage/custompage.jsp?_event=view&_id=445506___3135) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3164](/shared/custompage/custompage.jsp?_event=view&_id=445506___3164)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3135](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3135) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164)
 
  

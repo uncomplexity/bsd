@@ -13,6 +13,6 @@ curTime(** *timezone-string* **)**
 | **Parameter** | **Description** |
 | --- | --- |
 | *timezone-string* | The time zone string is used to determine where in the world the Time should be retrieved from. If omitted, the current user's preferred time zone is used. Any time zone identifier supported by Java 5 is allowed. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3171](/shared/custompage/custompage.jsp?_event=view&_id=445506___3171) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8101](/shared/custompage/custompage.jsp?_event=view&_id=445506___8101)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3171](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3171) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8101](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8101)
 
  

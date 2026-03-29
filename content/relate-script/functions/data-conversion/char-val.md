@@ -22,6 +22,6 @@ There are several conditions which can make it impossible to compute a character
 | *"INVALID_CODEPOINT"* | The character code given does not represent a valid character in Unicode. Certain ranges of codepoints are marked unused in the Unicode specification. Also negative numbers and numbers greater than the maximum value of a unsigned 32-bit integer will have this result when no charset is chosen. |
 | *"INVALID_CHARSET"* | The charset specified is not a valid charset name, or is not a supported charset. [A list of supported character sets can be found in Sun Microsystem's Java documentation.](http://java.sun.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___7581](/shared/custompage/custompage.jsp?_event=view&_id=445506___7581) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3822](/shared/custompage/custompage.jsp?_event=view&_id=445506___3822)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822)
 
  

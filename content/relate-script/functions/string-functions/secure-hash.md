@@ -10,6 +10,6 @@ The secureHash(...) function has only one variation, not counting syntax variati
 | **Parameter** | **Description** |
 | --- | --- |
 | *string-value* | The String value used to compute the secure hash value or MAC. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3172](/shared/custompage/custompage.jsp?_event=view&_id=445506___3172) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8921](/shared/custompage/custompage.jsp?_event=view&_id=445506___8921)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3172](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3172) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8921](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8921)
 
  

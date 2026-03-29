@@ -5,9 +5,9 @@
 ---
 An alert is a message which is sent to a user's browser while they are visiting a BlueStep website. The alert will be received within 30 seconds of being sent, provided the recipient is currently using the site. Alerts can be used for many purposes where sending an e-mail or intramail is too slow. **IMPORTANT: Alerts must be enabled by your BlueStep account representative. If they are not enabled you can still send an alert, but it cannot be received.**The functions that work with alert objects are:
 
- [getNewAlert(...) B.createAlert](/shared/custompage/custompage.jsp?_event=view&_id=445506___4763)
-[getAlert(...) B.findAlert](/shared/custompage/custompage.jsp?_event=view&_id=445506___4761)
-[getUserAlerts(...) B.User.alerts](/shared/custompage/custompage.jsp?_event=view&_id=445506___4781)All of the alert functions work with Alert objects. Below is a description of the properties of these Alert objects.
+ [getNewAlert(...) B.createAlert](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763)
+[getAlert(...) B.findAlert](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4761)
+[getUserAlerts(...) B.User.alerts](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4781)All of the alert functions work with Alert objects. Below is a description of the properties of these Alert objects.
 
 | The Alert Object |
 | --- |
@@ -49,6 +49,6 @@ An alert is a message which is sent to a user's browser while they are visiting 
 | firstView | This is a read-only DateTime value containing the time the recipient first viewed the alert message. |
 | lastView | This is a read-only DateTime value containing the time the recipient last viewed the alert message. |
 | numViews | This is a read-only Integer value containing the the number of times the recipient has viewed the alert. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___4768](/shared/custompage/custompage.jsp?_event=view&_id=445506___4768) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4763](/shared/custompage/custompage.jsp?_event=view&_id=445506___4763)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4768](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4768) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763)
 
  

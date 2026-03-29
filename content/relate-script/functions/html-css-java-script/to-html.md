@@ -11,6 +11,6 @@ The toHTML(...) function has only one variation, not counting syntax variations.
 | --- | --- |
 | *source-string* | The String from which to copy. |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8721](/shared/custompage/custompage.jsp?_event=view&_id=445506___8721) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3210](/shared/custompage/custompage.jsp?_event=view&_id=445506___3210)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8721](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8721) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3210](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3210)
 
  

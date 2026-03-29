@@ -65,6 +65,6 @@ The out variable now contains an HTML snippet that looks like this:
 - Daniel Webster: 18 - Jan - 1782
 
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___4181](/shared/custompage/custompage.jsp?_event=view&_id=445506___4181) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7221](/shared/custompage/custompage.jsp?_event=view&_id=445506___7221)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4181](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4181) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7221](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7221)
 
  

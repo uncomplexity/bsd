@@ -32,6 +32,6 @@ diff(** *original-string***,** *current-string***,** *line-diff***,** *sample*, 
 | *matchedChars* | An integer value indicating the number of characters that matched between the two input strings. |
 | *origMatchedPercent* | A floating point value indicating what percent of the characters in the 'original' string are also found in the 'current' string. |
 | *curMatchedPercent* | A floating point value indicating what percent of the characters in the 'current' string are also found in the 'original' string. |
-`bluestep.js`: [`B.diff()`](/jslib/docs/B/classes/bluestep.b.html#diff "B.toHtml()") [/shared/custompage/custompage.jsp?_event=view&_id=445506___8082](/shared/custompage/custompage.jsp?_event=view&_id=445506___8082) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8081](/shared/custompage/custompage.jsp?_event=view&_id=445506___8081)
+`bluestep.js`: [`B.diff()`](/jslib/docs/B/classes/bluestep.b.html#diff "B.toHtml()") [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8082](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8082) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8081](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8081)
 
  

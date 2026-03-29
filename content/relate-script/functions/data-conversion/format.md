@@ -28,6 +28,6 @@ format(** *dateTime-value***,** *datetime-format-string* **)**
 use the format string "$#,##0.00;$(#,##0.00)".
 
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___7601](/shared/custompage/custompage.jsp?_event=view&_id=445506___7601) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8861](/shared/custompage/custompage.jsp?_event=view&_id=445506___8861)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7601](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7601) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8861](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8861)
 
  

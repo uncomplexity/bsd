@@ -10,6 +10,6 @@ The size(...) function has only one variation, not counting syntax variations. I
 | **Parameter** | **Description** |
 | --- | --- |
 | *array-value* | The array value whose size is being computed. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3185](/shared/custompage/custompage.jsp?_event=view&_id=445506___3185) [/shared/custompage/custompage.jsp?_event=view&_id=445506___4766](/shared/custompage/custompage.jsp?_event=view&_id=445506___4766)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3185](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3185) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4766](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4766)
 
  

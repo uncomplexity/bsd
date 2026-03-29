@@ -15,6 +15,6 @@ The newPatientDrug() method creates a PatientDrug object that can be added to a 
 | *setDoseRoute(doseRoute)* | "Oral", "Intramuscular", etc. |
 | *setScheduleAdmin("PRN")* | Optionally set if the Medication is given PRN. |
 | *setDose(dose)* | "1 tablet", "325 MG", etc. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11703](/shared/custompage/custompage.jsp?_event=view&_id=445506___11703) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8801](/shared/custompage/custompage.jsp?_event=view&_id=445506___8801)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11703](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11703) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8801](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8801)
 
  

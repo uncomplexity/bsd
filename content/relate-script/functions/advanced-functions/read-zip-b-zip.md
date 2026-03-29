@@ -49,6 +49,6 @@ The result is the following HTML:
 - "lib/xml-apis.jar" size: 220,536(172,949); crc: 3,203,011,316; time: 1/23/12 3:54 PM
 - "LICENSE.txt" size: 2,558(1,243); crc: 3,326,120,105; time: 4/5/12 9:08 AM
 - "README.txt" size: 4,457(2,009); crc: 2,874,049,301; time: 4/5/12 9:06 AM
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8801](/shared/custompage/custompage.jsp?_event=view&_id=445506___8801) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3186](/shared/custompage/custompage.jsp?_event=view&_id=445506___3186)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8801](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8801) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3186](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3186)
 
  

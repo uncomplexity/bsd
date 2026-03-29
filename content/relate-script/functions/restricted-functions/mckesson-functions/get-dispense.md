@@ -33,6 +33,6 @@ The getDispense(...) function retrieves a Dispense Object from the Mckesson Data
 | --- | --- |
 | *getFieldByID(String fieldID)* | This function results in a String containing the value for that field for that dispense. |
 | *getDispenseMap(DispenseCustomObject dispense)* | This function results in a Map always in case the soap call returns a Map of items, however, it is used to make webservice calls to a soap client. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___6545](/shared/custompage/custompage.jsp?_event=view&_id=445506___6545) [/shared/custompage/custompage.jsp?_event=view&_id=445506___6522](/shared/custompage/custompage.jsp?_event=view&_id=445506___6522)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6545](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6545) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6522](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6522)
 
  

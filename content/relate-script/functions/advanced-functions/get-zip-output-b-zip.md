@@ -17,6 +17,6 @@ getZipOutput(** *filename* **)***filename***.getZipOutput(** **)**
 | *errors* | A read-only String value containing any errors which have resulted from prior calls to addFile(...), addData(...) or write(...). If more than one error has occured, the different messages will be separated by newline characters. |
 | *resetErrors( )* | Clears the *errors* value making it easier to determine which action resulted in which error. |
 | *write(filename)* | Writes the final zip file. A *filename* may optionally be passed which overrides any filename given when this zip output object was first created. The result of this function is a temporary URL where the final zip file may be found. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___8162](/shared/custompage/custompage.jsp?_event=view&_id=445506___8162) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11921](/shared/custompage/custompage.jsp?_event=view&_id=445506___11921)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11921](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11921)
 
  

@@ -20,6 +20,6 @@ formatElapsedTime(** *datediff-value***,** *abbrev* **)**
 **Example:** To display the time elapsed since a particular timestamp use: formatElapsedTime(curDateTime() - timestamp);
 
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3822](/shared/custompage/custompage.jsp?_event=view&_id=445506___3822) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8341](/shared/custompage/custompage.jsp?_event=view&_id=445506___8341)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8341](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8341)
 
  

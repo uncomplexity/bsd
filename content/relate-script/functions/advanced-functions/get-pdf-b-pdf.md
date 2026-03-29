@@ -36,6 +36,6 @@ PDF Field Custom Object
 | Checkbox | {Yes or 1} Will only take yes or 1 for checked (yes or 1 depends on the checkbox field used). The opposite would be to not set the field at all. |
 | Radio | Any Number {0,1,6,12} (There is no regular sequence. You have to printout possibleValues.) |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___11641](/shared/custompage/custompage.jsp?_event=view&_id=445506___11641) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8741](/shared/custompage/custompage.jsp?_event=view&_id=445506___8741)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11641](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11641) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8741](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8741)
 
  

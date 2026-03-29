@@ -84,6 +84,6 @@ A DocumentReference represents the connection between a document field and the d
 | fieldName | The name of the document field that references the document. |
 | fieldLabel | The label of the document field that references the document. |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3154](/shared/custompage/custompage.jsp?_event=view&_id=445506___3154) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8481](/shared/custompage/custompage.jsp?_event=view&_id=445506___8481)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3154](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3154) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8481](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8481)
 
  

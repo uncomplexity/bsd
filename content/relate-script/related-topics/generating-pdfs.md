@@ -195,6 +195,6 @@ javascript Example: var generator = {
  var newWindow = window.open("/pdf?fileName=myPDF.pdf&generator=" + generatorEncoded,"_blank");
  newWindow.print();
 
- See <https://wkhtmltopdf.org/usage/wkhtmltopdf.txt> for more details. [/shared/custompage/custompage.jsp?_event=view&_id=445506___8621](/shared/custompage/custompage.jsp?_event=view&_id=445506___8621) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11401](/shared/custompage/custompage.jsp?_event=view&_id=445506___11401)
+ See <https://wkhtmltopdf.org/usage/wkhtmltopdf.txt> for more details. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11401](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11401)
 
  

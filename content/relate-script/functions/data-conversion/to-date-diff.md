@@ -24,6 +24,6 @@
 | "P90D" | 90 days. The days will not be converted to months since the conversion would not be precise. |
 | "P1Y2M3DT4H5M6.007S" | 1 year, 2 months, 3 days, 4 hours, 5 minutes, 6 seconds and 7 milliseconds. |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___3165](/shared/custompage/custompage.jsp?_event=view&_id=445506___3165) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3481](/shared/custompage/custompage.jsp?_event=view&_id=445506___3481)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3165](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3165) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3481](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3481)
 
  

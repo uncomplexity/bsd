@@ -12,6 +12,6 @@ prepareSearch(** *searchStr***,** *prepareLike* **)**
 | --- | --- |
 | *searchStr* | The string value to be formatted. |
 | *prepareLike* | The optional boolean indicating whether the value will be used in a SQL 'like' clause. If any value other than "true" the function prepares a value to insert into the table column. |
-**Example:** [/shared/custompage/custompage.jsp?_event=view&_id=445506___7321](/shared/custompage/custompage.jsp?_event=view&_id=445506___7321) [/shared/custompage/custompage.jsp?_event=view&_id=445506___11901](/shared/custompage/custompage.jsp?_event=view&_id=445506___11901)
+**Example:** [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7321](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7321) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11901](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11901)
 
  

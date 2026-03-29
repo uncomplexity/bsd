@@ -28,6 +28,6 @@ There are several conditions which can make it impossible to compute a codepoint
 | *-3* | The character at the position indicated does not have a character code value in the charset specified. All charsets except unicode have less than 32-bit character codes. Thus they can only represent some subset of the values possible in unicode. If the unicode character chosen is not a part of the subset of characters that can be represented by the charset chosen, then the error code -3 is returned. |
 | *-4* | The charset specified is not a valid charset name, or is not a supported charset. [A list of supported character sets can be found in Sun Microsystem's Java documentation.](http://java.sun.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) |
 
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___4764](/shared/custompage/custompage.jsp?_event=view&_id=445506___4764) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7601](/shared/custompage/custompage.jsp?_event=view&_id=445506___7601)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4764](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4764) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7601](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7601)
 
  

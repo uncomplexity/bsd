@@ -30,6 +30,6 @@ getUserData(** *userData* **)**
 | *set(name, value, expire)* | Clears any currently stored values and replaces them with a single new String value. The expire parameter is an optional DateTime value which determines when the list of values stored under the given name will expire. If no expiration is given and no values have been previously stored under the name, then the default expiration is one week from the current date/time. The result of this function is true if the value is successfully stored. |
 | *expireOnLogout(name)* | Sets the expiration of the value(s) connected to *name* to the time when the user next logs out or is automatically logged out by session timeout. |
 | *getAll(name)* | Gets the list of values stored under the given name as an array of type String[Integer]. Changes to the resulting array will not be reflected in the stored values. |
-[/shared/custompage/custompage.jsp?_event=view&_id=445506___4782](/shared/custompage/custompage.jsp?_event=view&_id=445506___4782) [/shared/custompage/custompage.jsp?_event=view&_id=445506___8401](/shared/custompage/custompage.jsp?_event=view&_id=445506___8401)
+[https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8401](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8401)
 
  

@@ -9,6 +9,6 @@ The setVersioned(...) function has only one variation, not counting syntax varia
 | --- | --- |
 | *document-field* | The document field referencing the document which will receive the new notes. If the field is read-only or does not currently reference a document the function will return false or null respectively. |
 | *versioned* | A boolean value indicating whether the document should be versioned. If *versioned* is null the function will return false. Remember that a changing a document from versioned to un-versioned does not cause it to lose all previous versions. It does hide the previous versions, and it does cause any future content changes to replace the content of the most recent version. |
- [/shared/custompage/custompage.jsp?_event=view&_id=445506___7505](/shared/custompage/custompage.jsp?_event=view&_id=445506___7505) [/shared/custompage/custompage.jsp?_event=view&_id=445506___7481](/shared/custompage/custompage.jsp?_event=view&_id=445506___7481)
+ [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7505](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7505) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7481](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7481)
 
  

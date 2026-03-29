@@ -53,6 +53,6 @@ if (option.exportValue == "UT") {
 option.selected = true;
 break;
 }
-}Of course, the same operation can be accomplished very easily using the *optionsByExport* property.state.optionsByExport["UT"].selected = true; [/shared/custompage/custompage.jsp?_event=view&_id=445506___3149](/shared/custompage/custompage.jsp?_event=view&_id=445506___3149) [/shared/custompage/custompage.jsp?_event=view&_id=445506___3151](/shared/custompage/custompage.jsp?_event=view&_id=445506___3151)
+}Of course, the same operation can be accomplished very easily using the *optionsByExport* property.state.optionsByExport["UT"].selected = true; [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3149](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3149) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3151](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3151)
 
  

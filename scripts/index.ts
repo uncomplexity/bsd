@@ -155,7 +155,7 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 			await page.locator(selector).evaluateAll((els) => {
 				for (const el of els) {
 					if (el instanceof HTMLAnchorElement) {
-						el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.href}`);
+						el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.getAttribute("href")}`);
 					}
 				}
 			});

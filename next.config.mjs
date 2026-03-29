@@ -1,16 +1,18 @@
 import path from "node:path";
 import nextra from "nextra";
 
+const isProd = process.env.NODE_ENV === 'production'
+
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
   output: 'export',
+  basePath: isProd ? '/bsd' : '',
+  assetPrefix: isProd ? '/bsd/' : '',
   images: {
-    unoptimized: true // mandatory, otherwise won't export
+    unoptimized: true,
   },
-  // Optional: Change the output directory `out` -> `dist`
-  distDir: "dist"
 };
 
 // Set up Nextra with its configuration

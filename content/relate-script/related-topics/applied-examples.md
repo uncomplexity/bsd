@@ -101,7 +101,7 @@ A crux of this code is that you must have the `Save Parameters in UserData
  </div>
  </div>
 
-Display Multi-entry Form in MergeHeader with ButtonWith the new (as of 2018) [global string formatters](/shared/relate/listmodule.jsp?_event=view&_id=530009_U129801__148887), it's easier than ever to create a header with a button. The following code checks whether the facility has pop-ins or not, creates a button for a new entry on whatever item you select, and puts that button in a header. If pop-ins are not selected, the link will open in a new tab. You must have the query for **Facility (This unit only)** and the form **Setup: Facility Settings**, given the formula IDs `facility` and `settings`. The variable `items` is whatever form you're working with. noPopin = facility.get(0).settings.noPopin;
+Display Multi-entry Form in MergeHeader with ButtonWith the new (as of 2018) [global string formatters](https://bluestepplatformsupport.bluestep.net/shared/relate/listmodule.jsp?_event=view&_id=530009_U129801__148887), it's easier than ever to create a header with a button. The following code checks whether the facility has pop-ins or not, creates a button for a new entry on whatever item you select, and puts that button in a header. If pop-ins are not selected, the link will open in a new tab. You must have the query for **Facility (This unit only)** and the form **Setup: Facility Settings**, given the formula IDs `facility` and `settings`. The variable `items` is whatever form you're working with. noPopin = facility.get(0).settings.noPopin;
  if (noPopin == null) noPopin = true;
  itemUrl = items.System.newEntryURL;
  dest = '&_dest=/shared/admin/refreshandclose.jsp';

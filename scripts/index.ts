@@ -159,7 +159,7 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		}
 
 		{
-			const selector = `a[href^="/shared/custompage/"]`;
+			const selector = `a[href^="/shared/"]`;
 			await page.locator(selector).evaluateAll((els) => {
 				for (const el of els) {
 					if (el instanceof HTMLAnchorElement) {

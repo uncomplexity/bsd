@@ -4,5 +4,5 @@
 
 - Scrape HTML ✅
 - Convert HTML to Markdown ✅
-- Serve with Nextra ❌
-- Publish
+- Serve with Nextra ✅
+- Publish at Github Pages ❌

@@ -12,6 +12,8 @@ interface Subpage {
   parents: string[];
 };
 
+// Each outline is a BlueStep "content outline" page — a table-of-contents listing
+// all subpages for that section. Each one becomes a top-level directory under content/.
 const outlines = [
 	{
 		name: "Relate Components",
@@ -36,12 +38,14 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 
 	await page.goto(outline.url, { waitUntil: "networkidle" });
 
+	// Strip BlueStep chrome (header, footer, nav) so only the content remains.
 	await page.evaluate(() => {
 		document
 			.querySelectorAll(".headerArea, .footerArea, .menuBase, .rightButtons")
 			.forEach((el) => el.remove());
 	});
 
+	// Replace the entire body with just #contentArea to further isolate the content.
 	await page.evaluate(() => {
 		const inner = document.querySelector('#contentArea');
 		if (inner) {
@@ -50,6 +54,10 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		}
 	});
 
+	// Parse the outline's table-of-contents into a flat list of subpages.
+	// BlueStep renders each entry as a two-cell table row: the first cell has a
+	// padding-left style that encodes the nesting depth (24px per level), and the
+	// second cell holds the link. This walks those rows to reconstruct the hierarchy.
 	const subpages = await page.evaluate(() => {
 		const content = document.querySelector("#contentArea");
 		if (!content) {
@@ -73,6 +81,8 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 							const depth = Math.floor(padding / 24);
 							const name = link.textContent.trim();
 							const url = link.href;
+							// Keep a rolling breadcrumb — truncate to current depth so
+							// deeper items don't bleed into shallower siblings.
 							parents[depth - 1] = name;
 							parents.length = depth;
 							const subpage: Subpage = {
@@ -92,6 +102,7 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 
 	await page.close();
 
+	// Create the top-level output directory for this outline (e.g. content/relate-script/).
 	const outline_dirpath = path.join(
 		import.meta.dirname,
 		"../content/",
@@ -102,10 +113,13 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		fs.mkdirSync(outline_dirpath, { recursive: true });
 	}
 
+	// Scrape each subpage and write it as a markdown file, mirroring the outline hierarchy.
 	for (let i = 0, l = subpages.length; i < l; i += 1) {
 		const subpage = subpages[i];
 		assert(subpage instanceof Object);
-	
+
+		// Build the output path from slugified parent names + the page name.
+		// e.g. content/relate-script/advanced-functions/do-lookup-b-lookup.md
 		const parent_slugs = subpage.parents.map((path) => slugify(path));
 		const page_name = slugify(subpage.name);
 		const page_filename = `${page_name}.md`;
@@ -124,11 +138,12 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 		} else {
 			console.log(`${outline_name} > ${page_name}..`);
 		}
-	
+
 		const page = await browser.newPage();
-	
+
 		await page.goto(subpage.url, { waitUntil: "networkidle" });
-	
+
+		// Strip BlueStep chrome from the subpage as well.
 		await page.evaluate(() => {
 			document
 				.querySelectorAll(
@@ -137,44 +152,52 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 				.forEach((el) => el.remove());
 		});
 
-		for (const subpage of subpages) {
-			const subpage_href =
-				"/" +
-				[
-					slugify(outline.name),
-					...subpage.parents.map((path) => slugify(path)),
-					slugify(subpage.name),
-				].join("/");
-			const subpage_url = new URL(subpage.url);
-			const subpage_pathname_search = subpage_url.pathname.concat(subpage_url.search).replace('___', '_U129801__');
-			const selector = `a[href="${subpage_pathname_search}"]`;
-			await page.locator(selector).evaluateAll(
-				(els, subpage_href) => {
-					for (const el of els) {
-						el.setAttribute("href", subpage_href);
-					}
-				},
-				subpage_href
-			);
-		}
+		// Rewrite internal BlueStep links to local content paths so cross-references
+		// resolve within the generated docs instead of pointing back to the live site.
+		// BlueStep's JS-resolved href uses ___ as an ID separator, but the raw HTML
+		// attribute uses _U129801__ — the replacement aligns the two before building
+		// the CSS attribute selector.
+		// for (const subpage of subpages) {
+		// 	const subpage_href =
+		// 		"/" +
+		// 		[
+		// 			slugify(outline.name),
+		// 			...subpage.parents.map((path) => slugify(path)),
+		// 			slugify(subpage.name),
+		// 		].join("/");
+		// 	const subpage_url = new URL(subpage.url);
+		// 	const subpage_pathname_search = subpage_url.pathname.concat(subpage_url.search).replace('___', '_U129801__');
+		// 	const selector = `a[href="${subpage_pathname_search}"]`;
+		// 	await page.locator(selector).evaluateAll(
+		// 		(els, subpage_href) => {
+		// 			for (const el of els) {
+		// 				el.setAttribute("href", subpage_href);
+		// 			}
+		// 		},
+		// 		subpage_href
+		// 	);
+		// }
 
-		{
-			const selector = `a[href^="/shared/"]`;
-			await page.locator(selector).evaluateAll((els) => {
-				for (const el of els) {
-					if (el instanceof HTMLAnchorElement) {
-						el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.getAttribute("href")}`);
-					}
-				}
-			});
-		}
+		// Rewrite any remaining relative /shared/... links to absolute URLs so they
+		// still work when viewed outside the BlueStep domain.
+		// {
+		// 	const selector = `a[href^="/shared/"]`;
+		// 	await page.locator(selector).evaluateAll((els) => {
+		// 		for (const el of els) {
+		// 			if (el instanceof HTMLAnchorElement) {
+		// 				el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.getAttribute("href")}`);
+		// 			}
+		// 		}
+		// 	});
+		// }
 
+		// Convert the cleaned HTML to markdown and write it to disk.
 		const page_html = await page.content();
 		const page_markdown = convert(page_html, {
 			extractMetadata: false,
 		});
 		fs.writeFileSync(page_filepath, page_markdown);
-	
+
 		await page.close();
 	}
 }

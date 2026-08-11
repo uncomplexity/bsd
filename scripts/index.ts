@@ -102,6 +102,26 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 
 	await page.close();
 
+	// Precompute a rewrite map: each subpage's raw JSP link href -> its local doc
+	// route, so internal cross-references resolve within the generated docs instead
+	// of pointing back to the live site. BlueStep's JS-resolved href uses ___ as the
+	// id separator while the raw HTML attribute uses _U129801__; align them so the
+	// lookup matches getAttribute("href") on each scraped page.
+	const href_rewrites = subpages.map((sp) => {
+		const to =
+			"/" +
+			[
+				slugify(outline.name),
+				...sp.parents.map((parent) => slugify(parent)),
+				slugify(sp.name),
+			].join("/");
+		const sp_url = new URL(sp.url);
+		const from = sp_url.pathname
+			.concat(sp_url.search)
+			.replace("___", "_U129801__");
+		return { from, to };
+	});
+
 	// Create the top-level output directory for this outline (e.g. content/relate-script/).
 	const outline_dirpath = path.join(
 		import.meta.dirname,
@@ -141,64 +161,61 @@ for (let i = 0, l = outlines.length; i < l; i += 1) {
 
 		const page = await browser.newPage();
 
-		await page.goto(subpage.url, { waitUntil: "networkidle" });
+		// Use "domcontentloaded", not "networkidle": pages that embed live Relate
+		// components hold open websockets (atmosphere.js) and never reach network
+		// idle, so "networkidle" would always time out. The content is server-rendered
+		// JSP, so it is fully present at domcontentloaded. The whole per-page scrape is
+		// wrapped in try/catch so one bad page is skipped instead of aborting the run.
+		try {
+			await page.goto(subpage.url, {
+				waitUntil: "domcontentloaded",
+				timeout: 60_000,
+			});
 
-		// Strip BlueStep chrome from the subpage as well.
-		await page.evaluate(() => {
-			document
-				.querySelectorAll(
-					".headerArea, .footerArea, .menuBase, .rightButtons, #sideNav",
-				)
-				.forEach((el) => el.remove());
-		});
+			// Strip BlueStep chrome from the subpage as well.
+			await page.evaluate(() => {
+				document
+					.querySelectorAll(
+						".headerArea, .footerArea, .menuBase, .rightButtons, #sideNav",
+					)
+					.forEach((el) => el.remove());
+			});
 
-		// Rewrite internal BlueStep links to local content paths so cross-references
-		// resolve within the generated docs instead of pointing back to the live site.
-		// BlueStep's JS-resolved href uses ___ as an ID separator, but the raw HTML
-		// attribute uses _U129801__ — the replacement aligns the two before building
-		// the CSS attribute selector.
-		// for (const subpage of subpages) {
-		// 	const subpage_href =
-		// 		"/" +
-		// 		[
-		// 			slugify(outline.name),
-		// 			...subpage.parents.map((path) => slugify(path)),
-		// 			slugify(subpage.name),
-		// 		].join("/");
-		// 	const subpage_url = new URL(subpage.url);
-		// 	const subpage_pathname_search = subpage_url.pathname.concat(subpage_url.search).replace('___', '_U129801__');
-		// 	const selector = `a[href="${subpage_pathname_search}"]`;
-		// 	await page.locator(selector).evaluateAll(
-		// 		(els, subpage_href) => {
-		// 			for (const el of els) {
-		// 				el.setAttribute("href", subpage_href);
-		// 			}
-		// 		},
-		// 		subpage_href
-		// 	);
-		// }
+			// Rewrite internal BlueStep links to their local doc route; make any
+			// remaining /shared/... links absolute so they still resolve away from
+			// the live site. Keeps the generated docs self-referential.
+			await page.evaluate((rewrites) => {
+				const map = new Map(rewrites.map((r) => [r.from, r.to] as [string, string]));
+				document.querySelectorAll("a[href]").forEach((el) => {
+					const href = el.getAttribute("href");
+					if (href === null) {
+						return;
+					}
+					const local = map.get(href);
+					if (local !== undefined) {
+						el.setAttribute("href", local);
+					} else if (href.startsWith("/shared/")) {
+						el.setAttribute(
+							"href",
+							`https://bluestepplatformsupport.bluestep.net${href}`,
+						);
+					}
+				});
+			}, href_rewrites);
 
-		// Rewrite any remaining relative /shared/... links to absolute URLs so they
-		// still work when viewed outside the BlueStep domain.
-		// {
-		// 	const selector = `a[href^="/shared/"]`;
-		// 	await page.locator(selector).evaluateAll((els) => {
-		// 		for (const el of els) {
-		// 			if (el instanceof HTMLAnchorElement) {
-		// 				el.setAttribute("href", `https://bluestepplatformsupport.bluestep.net${el.getAttribute("href")}`);
-		// 			}
-		// 		}
-		// 	});
-		// }
-
-		// Convert the cleaned HTML to markdown and write it to disk.
-		const page_html = await page.content();
-		const page_markdown = convert(page_html, {
-			extractMetadata: false,
-		});
-		fs.writeFileSync(page_filepath, page_markdown);
-
-		await page.close();
+			// Convert the cleaned HTML to markdown and write it to disk.
+			const page_html = await page.content();
+			const page_markdown = convert(page_html, {
+				extractMetadata: false,
+			});
+			fs.writeFileSync(page_filepath, page_markdown);
+		} catch (error) {
+			const message =
+				error instanceof Error ? error.message.split("\n")[0] : String(error);
+			console.warn(`  !! skipped ${subpage.url}: ${message}`);
+		} finally {
+			await page.close();
+		}
 	}
 }
 

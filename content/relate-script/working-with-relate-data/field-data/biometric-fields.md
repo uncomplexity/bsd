@@ -15,5 +15,3 @@ Biometric fields are represented using a custom data type. In some Relate Script
 | *getHash()* | Gets the previously stored hash value for the purpose of comparing it with a freshly generated hash value. |
 | reset() | This method clear a biometric field which currently has biometric data. Its result is a Boolean value which is true if the field actually contains biometric data prior to executing the function. This function is only available if the form containing the biometric field is marked as editable in the formula configuration. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8121](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8121) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9101](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9101)
-
- 

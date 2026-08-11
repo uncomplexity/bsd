@@ -25,5 +25,3 @@ The newEmail(...) function is used to send email. It differs from the sendEmail(
 | *errors* | The errors field is a read-only String value containing a newline delimited list of error messages caused by calling any of the functions described above. |
 | *resetErrors()* | The resetErrors() function causes the errors field to be cleared. Sometimes it may be difficult to determine which action is causing an error. Executing the resetErrors() function, performing a single action (calling a single function), then checking the errors field for a value is one way to isolate and diagnose these types of problems. |
 [B.email()](/jslib/docs/B/classes/bluestep.b.html#email "B.email()") [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9501](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9501) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8841](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8841)
-
- 

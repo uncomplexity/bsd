@@ -196,5 +196,3 @@ javascript Example: var generator = {
  newWindow.print();
 
  See <https://wkhtmltopdf.org/usage/wkhtmltopdf.txt> for more details. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11401](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11401)
-
- 

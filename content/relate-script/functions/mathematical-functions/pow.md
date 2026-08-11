@@ -12,5 +12,3 @@ The pow(...) function has only one variation, not counting syntax variations. It
 | *number* | The number to be raised to a power. |
 | *exponent* | The power by which *number* will be raised. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3181](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3181) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7541](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7541)
-
- 

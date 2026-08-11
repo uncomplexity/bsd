@@ -23,5 +23,3 @@ getNewAlert(** *to, type***,** *message, startDate, endDate, userAssignedID, lin
 | *priority* | An Integer value indicating the priority of the message. The value must be between 1 and 10. A value 1-3 will show a high priority icon, 4-7 will show a normal priority icon and 8-10 will show a low priority icon. A null value or out-of-range value will set the priority to 5. |
 | *snoozeDelay* | An Integer value indicating the milli-seconds delay between announcements of the alert notification. When a recipient views an alert, any sound stops and the blinking alert light turns off for the duration specified. |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4784](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4784) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4761](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4761)
-
- 

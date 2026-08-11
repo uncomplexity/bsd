@@ -25,5 +25,3 @@ Expressions are evaluated in the order listed below:
 | ? : | Conditional Operator | N/A |
 | = or *= or /= or %= or += or -= or \|= or <<= or >>= or >>>= or &= or ^= | Assignment | right-to-left |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3126](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3126) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3155](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3155)
-
- 

@@ -10,5 +10,3 @@ The getAlert(...) function retrieves an existing alert to discover the status of
 | --- | --- |
 | *userAssignedID* | A String value containing the id assigned to the alert. |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4781](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4781)
-
- 

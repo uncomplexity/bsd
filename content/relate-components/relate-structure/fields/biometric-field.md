@@ -10,5 +10,3 @@ Biometric fields interact with special biometric hardware devices: signature pad
 | Format | This setting determines what type of hardware the field interacts with. Fingerprint devices come in two varieties depending on which version of the driver software supports that device. |
 | Timestamp | Determines whether the stored timestamp is displayed, and if so in what format. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8321](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8321) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8184](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8184)
-
- 

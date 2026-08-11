@@ -32,5 +32,3 @@ Multi-entry reports are a table-based report with rows and columns. They work wi
 | *Total On* | Allows numeric columns to be totalled to get the sum of all of the value in that column. If grouping is also configured, subtotals will be shown for each group and subgroup. |
 | *Totals Only* | If checked, the report will only show the totals and subtotals but not show the actual data. This is generally only helpful when both totalling and grouping are configured. Since the grouping shows the common value which defines the group along with the subtotals, each group and its subtotal can be identified. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9121](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9121) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8191](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8191)
-
- 

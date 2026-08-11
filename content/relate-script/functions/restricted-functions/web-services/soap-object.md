@@ -29,5 +29,3 @@
 | *soapGetEnum(String method)* | This function results in a Enum value. This method gets an Enum from a parent SoapCustomObject. |
 | *soapGetBytes(String method)* | This function results in a String value. This method gets a byte[] from a parent SoapCustomObject. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7262](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7262) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7301](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7301)
-
- 

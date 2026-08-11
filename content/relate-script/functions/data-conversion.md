@@ -28,5 +28,3 @@ There are many data types in Relate, and Relate will not implicitly convert betw
  chosenForm.addSearch("date", "<=", curDate())
 
 **This will throw an error because the forms are of different data types.** If Meds had an ID of '123' and Surgeries an ID of '456', their data types would be `ReadOnlyFormEntry_123[Integer]` and `ReadOnlyFormEntry_456[Integer]` respectively. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581)
-
- 

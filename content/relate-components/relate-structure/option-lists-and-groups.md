@@ -34,5 +34,3 @@ Option GroupsOption groups are groupings or sub-groupings of options within an o
 | Bundle Settings | Option groups may belong to bundles, assuming bundles have been created. These settings are complex and virtually identical for all Relate components. They are described in the [article on bundles](/relate-components/other-elements-and-functions/bundles). |
 | Custom Lookup Properties | This setting is used to add additional identifying attributes as a part of the underlying platform logic. They work exactly the same as in other components, except there is currently no way to used them for anything outside the platform logic. For this reason the setting is hidden except from BlueStep staff. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8521](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8521) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9121](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9121)
-
- 

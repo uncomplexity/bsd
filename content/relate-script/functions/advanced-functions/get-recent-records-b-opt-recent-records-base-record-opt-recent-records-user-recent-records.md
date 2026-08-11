@@ -31,5 +31,3 @@ RecentRecord Object Properties
 | *categories* | An array value of type Boolean[String] where the index is the name of a category and the boolean value indicates if the record belongs to that category. The list only contains categories that the record is a part of, so the value of any valid index is always true. |
 
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8041](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8041) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782)
-
- 

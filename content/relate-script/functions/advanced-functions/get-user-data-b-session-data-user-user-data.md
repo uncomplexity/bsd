@@ -31,5 +31,3 @@ getUserData(** *userData* **)**
 | *expireOnLogout(name)* | Sets the expiration of the value(s) connected to *name* to the time when the user next logs out or is automatically logged out by session timeout. |
 | *getAll(name)* | Gets the list of values stored under the given name as an array of type String[Integer]. Changes to the resulting array will not be reflected in the stored values. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4782) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8401](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8401)
-
- 

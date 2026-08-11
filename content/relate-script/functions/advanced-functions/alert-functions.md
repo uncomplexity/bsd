@@ -50,5 +50,3 @@ An alert is a message which is sent to a user's browser while they are visiting 
 | lastView | This is a read-only DateTime value containing the time the recipient last viewed the alert message. |
 | numViews | This is a read-only Integer value containing the the number of times the recipient has viewed the alert. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4768](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4768) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4763)
-
- 

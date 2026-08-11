@@ -82,5 +82,3 @@ The createChartl(...) function has only two basic variations, with six different
 | *text-color* | The color of the text itself. This can be a RGB value (i.e. "255255255") or a hexadecimal value (i.e. "#000000"). This option is defaulted to "000000000". |
 | *background-color* | The color of the background behind the text. This can be a RGB value (i.e. "255255255") or a hexadecimal value (i.e. "#000000"). This option is defaulted to "000000000". |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541)
-
- 

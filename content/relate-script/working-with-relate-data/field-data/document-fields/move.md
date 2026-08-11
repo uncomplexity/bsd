@@ -15,5 +15,3 @@ The move(...) function has two variations, not counting syntax variations. The m
 | *path* | The path within the current record's document library where the document will be placed. If the path specified is of an existing document, not folder, then the function will return false. If the folder from which the document is moved is left empty after the move then the folder will automatically be deleted. |
 | *create* | Specifies whether the path should be created if it does not exist. By default, *create* is true. If *create* is false and the path does not exist, the function will return false. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7462](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7462) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7502](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7502)
-
- 

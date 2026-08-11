@@ -23,5 +23,3 @@ outStr += date + " - " + event + "\n";
 06/21/1788 - U.S. Constitution is Ratified
 12/15/1791 - Bill of Rights Ratified
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3135](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3135) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3164)
-
- 

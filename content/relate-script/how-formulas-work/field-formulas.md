@@ -7,5 +7,3 @@ Field formulas have a number of unique properties which deserve attention. Field
  x = 3.1415 * 4 * 4
 is equvalent to simply
 3.1415 * 4 * 4 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3844](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3844) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8621)
-
- 

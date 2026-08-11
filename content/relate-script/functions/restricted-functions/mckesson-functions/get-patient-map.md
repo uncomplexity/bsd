@@ -16,5 +16,3 @@ getPatientMap(** *patientCustomObject );*
 | *firstName* | A String value containing the first name of the Patient. |
 | *patientID* | A String value containing the patient id of the Patient. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6522](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6522) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9261](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9261)
-
- 

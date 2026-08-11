@@ -39,5 +39,3 @@ getThumbnailHTML(** *document-field***,** *link* **)**
 | *transformation-type* | Determines how the image will be transformed. Thumbnails for non-image documents cannot be transformed and will result an untransformed images. A list of possible values and their meanings is given in the article titled "*[Image Transformations](/relate-script/working-with-relate-data/field-data/document-fields/image-transformations).*" |
 | *link* | A boolean value indicating whether the thumbail HTML should include a link to pop-up the original, full-sized document. If *link* is null, true, or omitted a link will be included. If link is false, no link will be included. |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7421](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7421) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7461](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7461)
-
- 

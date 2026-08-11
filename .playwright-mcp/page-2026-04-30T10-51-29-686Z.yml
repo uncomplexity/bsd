@@ -1,0 +1,138 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic:
+          - img
+        - text: BlueStep Platform Support
+      - link [expanded] [ref=e6] [cursor=pointer]:
+        - /url: /shared/login/login.jsp?desturl=%2Fshared%2Flayouts%2Fsingleblock.jsp%3F_event%3Dview%26_id%3D120130___194826
+        - img [ref=e7]
+  - generic:
+    - generic:
+      - link "Site Menu" [ref=e10] [cursor=pointer]:
+        - /url: "#collapseSiteNav"
+        - generic [ref=e11]: Site Menu
+        - strong [ref=e12]
+      - generic:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /shared/layouts/singleblock.jsp?_event=view&_id=120130___194606
+        - link "BlueStep Platform" [ref=e14] [cursor=pointer]:
+          - /url: /shared/common/viewsubmenumodule.jsp?_event=view&_id=120081___31121
+        - link "Relate" [ref=e15] [cursor=pointer]:
+          - /url: "#collapse100"
+          - text: Relate
+        - link "References" [ref=e17] [cursor=pointer]:
+          - /url: "#collapse101"
+          - text: References
+        - link "BlueStep Agent" [ref=e19] [cursor=pointer]:
+          - /url: /shared/files/files.jsp?_event=view&_id=530000___170877
+        - link "Contact Us" [ref=e20] [cursor=pointer]:
+          - /url: /shared/layouts/singleblock.jsp?_event=view&_id=120130___194607
+      - link "Login" [ref=e21] [cursor=pointer]:
+        - /url: /shared/login/login.jsp?desturl=%2Fshared%2Flayouts%2Fsingleblock.jsp%3F_event%3Dview%26_id%3D120130___194826
+        - img [ref=e22]
+        - generic [ref=e25]: Login
+  - list [ref=e30]:
+    - button "Home" [ref=e31] [cursor=pointer]
+    - button "BlueStep Platform" [ref=e32] [cursor=pointer]
+    - button "Relate" [ref=e33] [cursor=pointer]
+    - button "References" [ref=e34] [cursor=pointer]
+    - button "BlueStep Agent" [ref=e35] [cursor=pointer]
+    - button "Contact Us" [ref=e36] [cursor=pointer]
+  - generic [ref=e37]:
+    - table
+    - table [ref=e38]:
+      - rowgroup [ref=e39]:
+        - row "BlueStep.js Sample Output" [ref=e40]:
+          - cell "BlueStep.js Sample Output" [ref=e41]:
+            - table
+            - table [ref=e43]:
+              - rowgroup [ref=e44]:
+                - row "BlueStep.js Sample Output" [ref=e45]:
+                  - cell "BlueStep.js Sample Output" [ref=e46]
+                  - cell
+                - row [ref=e47]:
+                  - cell [ref=e48]:
+                    - separator [ref=e49]
+                - row [ref=e50]:
+                  - cell [ref=e51]
+        - row [ref=e52]:
+          - cell [ref=e53]
+        - row [ref=e54]:
+          - cell [ref=e55]:
+            - table
+            - generic [ref=e58]:
+              - generic [ref=e61] [cursor=pointer]: Sample output from BlueStep.js code
+              - paragraph [ref=e62]: The sample output from the items on this list is dynamically generated from the code as displayed for each example. Please note that some items in this list (like "Multiple Entry Form") exist for the sole purpose of having data available for other items (like "Mulit-Entry Form Methods").
+              - paragraph [ref=e63]: BlueStep.js methods that do something other than simply display data (like editing or saving data) are not included on this list. This list is under construction and should not be considered a complete list of all BlueStep.js methods.
+              - generic [ref=e64]: Field Values
+              - generic [ref=e65]:
+                - link "Generic Field Methods" [ref=e66] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110630
+                - link "Text Fields" [ref=e67] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110849
+                - link "Memo Fields" [ref=e68] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110850
+                - link "Date/Time Fields" [ref=e69] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110750
+                - link "Number Fields" [ref=e70] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110809
+                - link "Boolean Fields" [ref=e71] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110889
+                - link "Single Select Fields" [ref=e72] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110909
+                - link "Multiple Select Fields" [ref=e73] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110891
+                - link "Signature Fields" [ref=e74] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110892
+                - link "Document Fields" [ref=e75] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110893
+                - link "Relationship Fields" [ref=e76] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110894
+                - link "Biometric Fields" [ref=e77] [cursor=pointer]:
+                  - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110895
+              - generic [ref=e78]: Forms
+              - generic [ref=e79]:
+                - link "Multiple Entry Form" [ref=e80] [cursor=pointer]:
+                  - /url: /shared/relate/multirecordlist.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2110910
+                - link "Multi-Entry Form Methods" [ref=e81] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___161
+              - generic [ref=e82]: System Data (B)
+              - generic [ref=e83]:
+                - link "User Data" [ref=e84] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___202
+                - link "Date/Time Classes" [ref=e85] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___102
+                - link "Page Info" [ref=e86] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___521
+                - link "Site Navigation" [ref=e87] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___541
+                - link "Page Content" [ref=e88] [cursor=pointer]:
+                  - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___641
+              - link "Optionals" [ref=e90] [cursor=pointer]:
+                - /url: /shared/relate/editdatarecord.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=1000001___2111489
+              - link "Queries" [ref=e92] [cursor=pointer]:
+                - /url: /shared/relate/detailreportpage.jsp?_a=120060___139504&_event=view&_id=1000002___1174616&_id2=530024___241
+        - row [ref=e93]:
+          - cell [ref=e94]
+        - row:
+          - cell:
+            - table
+        - row [ref=e95]:
+          - cell [ref=e96]
+        - row:
+          - cell:
+            - table
+        - row [ref=e97]:
+          - cell [ref=e98]
+        - row:
+          - cell:
+            - table
+  - contentinfo [ref=e99]:
+    - generic [ref=e104]:
+      - link "Privacy" [ref=e105] [cursor=pointer]:
+        - /url: /p3p/clientprivacystmnt.jsp
+      - link "Terms" [ref=e106] [cursor=pointer]:
+        - /url: /p3p/termsofuse.jsp
+      - text: 1.79s

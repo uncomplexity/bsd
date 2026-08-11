@@ -36,5 +36,3 @@ publicProfile = couplesInfo.soapGetBoolean("isPublicProfile");pets = couplesInfo
 petsStr = pets[0] + ", " + pets[1];ids = couplesInfo.soapGetMapOfString("getLimitedBirthMotherIds");
 idsStr = ids[0] + ", " + ids[1];holdType = couplesInfo.soapGetEnum("getHoldType");children = couplesInfo.soapGetMapOfCustomObject("getChildren");
 childrenStr = children[0].soapGetString("getFirstName") + ", " + children[1].soapGetString("getFirstName") + "\n"; [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7281](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7281) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3144](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3144)
-
- 

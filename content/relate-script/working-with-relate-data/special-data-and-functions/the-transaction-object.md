@@ -21,5 +21,3 @@ Certain formula types may initiate an edit sequence as opposed to responding to 
 | *entryTempId* | A read-only String value containing the temporary id of the an entry which had an error prior to the first save of that entry. Currently only certain system generated errors use this value. |
 | *action* | A read-only String value containing the name of the action that was being performed on the Relate record. Currently only certain system generated errors use this value. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6661](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6661)
-
- 

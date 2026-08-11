@@ -40,5 +40,3 @@ If it was hard to write, what was done will likely be forgotten before it is rev
 // ------- Begin second part: email notifications -------
 can be a major time saver when seen later. Use common sense though; putting in too many comments can make it hard to see the important ones (not unlike pointless consumer warning labels).**Summary**
 Remember, don't try to cut corners in formatting and style. It may be a bit faster to type without the extra whitespace, but in the long run, no one ever regrets good style. There are many, many more style techniques that can aid script readability. Generally, anything done stylistically to make the meaning clearer is a good thing. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3122](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3122) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3125](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3125)
-
- 

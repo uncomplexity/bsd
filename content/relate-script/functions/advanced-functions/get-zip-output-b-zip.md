@@ -18,5 +18,3 @@ getZipOutput(** *filename* **)***filename***.getZipOutput(** **)**
 | *resetErrors( )* | Clears the *errors* value making it easier to determine which action resulted in which error. |
 | *write(filename)* | Writes the final zip file. A *filename* may optionally be passed which overrides any filename given when this zip output object was first created. The result of this function is a temporary URL where the final zip file may be found. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11921](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11921)
-
- 

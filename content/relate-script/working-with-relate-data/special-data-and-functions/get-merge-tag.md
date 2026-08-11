@@ -24,5 +24,3 @@ The examples all assume that the results contained in the "output" variable will
 mars.addSearch("sig", "d>", curDateTime().calc("-P7D"));
 mars.rememberSearchAndSort();
 output = ""; if (mars.size() > 0) { output = mars.getMergeTag(); }**Example:** Shows how to simultaniously edit the not-signed MAR records of all patients having the same schedule as the current MAR.output = ""; while (residents.hasNext()) { res = residents.next(); res.mars.addSearch("schedTime", "=", cur.schedTime); res.mars.addSearch("sig", "d=", null); for (i, m in res.mars) { output += '<div>' + m.getMergeTag() + '</div>'; } } [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9141](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9141) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8602)
-
- 

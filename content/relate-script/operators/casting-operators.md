@@ -29,5 +29,3 @@ To work for both positive and negative numbers you could do this:
 
 Or you can us the conditional operator to do this:
  x = ((Integer)(x * 100 + (x > 0 ? 0.5 : -0.5))) / 100.0; [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3156](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3156) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3162](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3162)
-
- 

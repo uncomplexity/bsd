@@ -46,5 +46,3 @@ newJSONArray(** *XMLString* **)**
 | *resetErrors()* | Clears the errors property to make it easier to determine which operation caused which error in a complex formula sequence. |
 | *pretty(indent)* | Converts the JSON array to a String value with newlines and indenting designed to make reading as clear as possible for humans. The optional *indent* parameter determines how large each indent step is. It must be between 0 and 8 and defaults to 2. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8701](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8701) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8421](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8421)
-
- 

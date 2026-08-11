@@ -17,5 +17,3 @@ The indexOf(...) function has two variations, not counting syntax variations. It
 | *target-string* | The String for which to search. |
 | *start-index* | The index of the character to begin searching at. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11801](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11801) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3174](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3174)
-
- 

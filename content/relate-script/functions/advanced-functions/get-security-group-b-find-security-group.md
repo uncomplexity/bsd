@@ -25,5 +25,3 @@ The getSecurityGroup(...) function is used to retrieve a security group using it
 | *getUsernames()* | This function results in a String value containing a newline delimited list of usernames of all of the members of the security group. |
 | *getUsernames(systemObject)* | This function results in a String value containing a newline delimited list of usernames of those members of the security group who may potentially have access to the Relate data represented by the System object according to the unit security settings of the security group. Note that the usernames listed may not represent users who actually have access to the data, only those who could potentially have access according to the unit security rules. |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8741](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8741) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8162)
-
- 

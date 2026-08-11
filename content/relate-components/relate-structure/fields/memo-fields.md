@@ -13,5 +13,3 @@ Memo fields hold a large piece of text, or a String as programmers call it. The 
 | Email Address List | Allows a list of email addresses. There are no known uses of this in actual use, but it's here for historical reasons. |
 | HTML Text | Transforms the field into a WYSIWYG rich-text editor with full HTML editing capabilities. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8281](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8281) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8283](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8283)
-
- 

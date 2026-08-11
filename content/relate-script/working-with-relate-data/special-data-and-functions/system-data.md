@@ -145,5 +145,3 @@ RelateMergeReport Methods
 | *content(newContent)* | Temporarly use *newContent* instead of the content saved with the mergeReport. Returns the previously saved content (Step 4 contents). |
 | *resolve(newContent)* | Temporarly use *newContent* instead of the content saved with the mergeReport and resolve it. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8601](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8601) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9141](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9141)
-
- 

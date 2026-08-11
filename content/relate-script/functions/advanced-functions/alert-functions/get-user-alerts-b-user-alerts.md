@@ -13,5 +13,3 @@ The getUserAlerts(...) function is used to get all the alerts sent to a particul
 | *startDate* | A DateTime value containing the start date of the alert notifications. If null or not passed, the default is the current date and time. |
 | *endDate* | A DateTime value containing the end date of the alert notifications. If null or not passed, the default is the current date and time. |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4761](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4761) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11761)
-
- 

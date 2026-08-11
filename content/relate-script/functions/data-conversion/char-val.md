@@ -23,5 +23,3 @@ There are several conditions which can make it impossible to compute a character
 | *"INVALID_CHARSET"* | The charset specified is not a valid charset name, or is not a supported charset. [A list of supported character sets can be found in Sun Microsystem's Java documentation.](http://java.sun.com/javase/6/docs/technotes/guides/intl/encoding.doc.html) |
 
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7581) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3822)
-
- 

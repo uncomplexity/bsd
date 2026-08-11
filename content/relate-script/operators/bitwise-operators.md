@@ -15,5 +15,3 @@ The full complement of standard bitwise operations are supported in Relate Scrip
 | >> | Right-Shift with Sign Propagation. |
 | >>> | Unsigned Right-Shift |
  [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3161](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3161) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3128](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___3128)
-
- 

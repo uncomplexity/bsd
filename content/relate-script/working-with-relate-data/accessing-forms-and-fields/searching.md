@@ -73,5 +73,3 @@ If searching for only one item, "AL" in this example, a fifth option is availabl
 - "Date After or Equals" "d>="
 - "Date Before or Equals" "d<="
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6722](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___6722) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11241](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11241)
-
- 

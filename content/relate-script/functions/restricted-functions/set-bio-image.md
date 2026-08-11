@@ -10,5 +10,3 @@ The setBioImage() function is used to convert old Touch(I-Pad) signatures to the
 | *newBioField* | The new Biometric Field that has been configured as a Touch Signature. |
 | **oldMemoData** | Data from either Version 1 (coordinates) or Version 2 (base64 SVG) memo field. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9261](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9261) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9421](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___9421)
-
- 

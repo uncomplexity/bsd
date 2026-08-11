@@ -53,5 +53,3 @@ CSS .btn {
  }
 
 You'll notice that the CSS in this example is actually 4 lines less, but it's a lot more typing and maintaining. If you have to change `.btn`, for example, in the CSS you'll have to change it in five places, whereas the Sass only requires one change. [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4781](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4781) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8021](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8021)
-
- 

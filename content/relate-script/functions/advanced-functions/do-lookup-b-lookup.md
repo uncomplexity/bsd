@@ -97,5 +97,3 @@ Lookup information about Adverse Drug Reactions for a medication. The search val
 | *incidence* | How likely this ADR is to happen. For example, Common, Frequent, More Frequent, etc. |
 
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8541) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7981](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7981)
-
- 

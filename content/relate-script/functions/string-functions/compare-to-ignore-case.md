@@ -23,5 +23,3 @@ The compareToIgnoreCase(...) function has only one variation, not counting synta
 | strA.compareToIgnoreCase(strB) >= 0 | Results in true if strA is greater than or equal to strB ignoring case. |
 | strA.compareToIgnoreCase(strB) <= 0 | Results in true if strA is less than or equal to strB ignoring case. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4765](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___4765) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11801](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11801)
-
- 

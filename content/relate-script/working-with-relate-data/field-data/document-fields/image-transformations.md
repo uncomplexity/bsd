@@ -37,5 +37,3 @@ Images can also be transformed in many ways. The following table describes each 
 | *RIGHT_INVERT* | *ri* | Example: RIGHT_INVERT transform | RIGHT-INVERT creates a vertically mirrored image then rotates it 90° clockwise. |
 | *LEFT_INVERT* | *li* | Example: LEFT_INVERT transform | LEFT-INVERT creates a vertically mirrored image then rotates it 90° counter-clockwise. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7521](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7521) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7361](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7361)
-
- 

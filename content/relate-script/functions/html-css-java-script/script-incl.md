@@ -12,5 +12,3 @@ The scriptIncl(...) is a convenience method that produces an HTML script tag to 
 | --- | --- |
 | *url* | The URL of the script to be included. If the URL is just a script name with no path, then "/jslib/" is prepended. If the script is in the "/jslib/" folder and ends with ".js" then a special domain is added to load the script from one of BlueStep's static-content domains for improved page load time. |
 [B.scriptInclude()](/jslib/docs/B/classes/bluestep.b.html#scriptinclude "B.scriptInclude()") [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11602](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___11602) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8721](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8721)
-
- 

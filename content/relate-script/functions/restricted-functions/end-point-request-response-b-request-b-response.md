@@ -44,5 +44,3 @@ response([HttpServletResponse](http://download.oracle.com/javaee/5/api/javax/ser
 | writeFromURL(String url) | Boolean | |
 | redirect(String url) | Boolean | A URL to redirect the user to. Note, this does not stop the execution of the End Point. |
 [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8381](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___8381) [https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7983](https://bluestepplatformsupport.bluestep.net/shared/custompage/custompage.jsp?_event=view&_id=445506___7983)
-
- 

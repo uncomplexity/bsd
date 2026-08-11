@@ -4,3 +4,4 @@ _pagefind/
 /out/
 
 .env
+.playwright-mcp/
